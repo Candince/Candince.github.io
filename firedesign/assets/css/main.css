@@ -540,7 +540,7 @@ input, select, textarea {
 					width: calc(25% - 0.375em);
 				}
 
-		/* @media screen and (max-width: 736px) {
+		@media screen and (max-width: 736px) {
 
 			form > .fields {
 				width: calc(100% + 3em);
@@ -564,7 +564,7 @@ input, select, textarea {
 						width: calc(100% - 1.5em);
 					}
 
-		} */
+		} 
 
 	label {
 		color: #ffffff;
@@ -749,7 +749,7 @@ input, select, textarea {
 		opacity: 1.0;
 	}
 
-/* Icon */
+/* Icon
 
 	.icon {
 		text-decoration: none;
@@ -917,7 +917,7 @@ input, select, textarea {
 				flex-direction: column;
 				margin-left: 0;
 				width: 100% !important;
-			}
+			}**/
 
 				ul.actions:not(.fixed) li {
 					-moz-flex-grow: 1;
@@ -1160,7 +1160,7 @@ input, select, textarea {
 
 		}
 
-		/* @media screen and (max-width: 736px) {
+		@media screen and (max-width: 736px) {
 
 			.panel {
 				-moz-transform: translateY(-100vh);
@@ -1179,7 +1179,7 @@ input, select, textarea {
 					transform: translateY(0);
 				}
 
-		} */
+		}
 
 /* Poptrox Popup */
 
@@ -1550,7 +1550,7 @@ input, select, textarea {
 							background-color: #242629;
 						}
 
-	/* @media screen and (max-width: 736px) {
+	@media screen and (max-width: 736px) {
 
 		body {
 			padding: 4em 0 0 0;
@@ -1583,7 +1583,7 @@ input, select, textarea {
 				padding: 0 1.15em;
 			}
 
-	} */
+	}
 
 /* Main */
 
