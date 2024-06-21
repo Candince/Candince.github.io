@@ -1644,10 +1644,46 @@ input, select, textarea {
 				width: 100%;
 			}
 
+			#main .thumb > .image1 {
+				-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				border: 0;
+				height: 100%;
+				left: 0;
+				position: absolute;
+				top: 0;
+				width: 400%;
+			}
+
+			#main .thumb > .image2 {
+				-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				border: 0;
+				height: 10%;
+				left: 0;
+				position: absolute;
+				top: 0;
+				width: 100%;
+			}
+
 			#main .thumb > h2 {
 				pointer-events: none;
 				bottom: 1.875em;
 				font-size: 1.25em;
+				left: 2.1875em;
+				margin: 0;
+				position: absolute;
+				z-index: 1;
+			}
+
+			#main .thumb > h3 {
+				pointer-events: none;
+				bottom: 1.875em;
+				font-size: 0.75em;
 				left: 2.1875em;
 				margin: 0;
 				position: absolute;
